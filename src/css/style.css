@@ -1,0 +1,64 @@
+.is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .gallery {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .search-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    background-color: #A0A0A0;
+  }
+  input {
+    width: 440px;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+  color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: #606060;
+  }
+  
+  button:hover,
+  button:focus {
+    background-color: #202020;
+  }
+  
+  .more {
+    margin: 0 auto;
+  }
