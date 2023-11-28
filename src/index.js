@@ -3,7 +3,6 @@ import Notiflix from 'notiflix';
 import { lightbox } from './js/lightbox';
 import { createMarkup } from './js/create-markup';
 
-
 const refs = {
   form: document.querySelector('#search-form'),
   gallery: document.querySelector('.gallery'),
